@@ -1,0 +1,81 @@
+/*
+Student Name: Tak Kam Cheng
+Student Id: 301429108
+Date: 26 Sep 2024
+File: project2 css
+*/
+
+body {
+  background: linear-gradient(to right, #87cefa, #eee8aa);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+#word {
+  display: flex;
+}
+
+.wordBox {
+  margin-right: 15px;
+}
+
+.wordBox-letter {
+  font-size: 60px;
+  color: #333;
+  text-align: center;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.wordBox-line {
+  border-bottom: 5px solid white;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.wordBox:last-of-type {
+  margin-right: 0px;
+}
+
+#letter {
+  text-align: center;
+  width: 200px;
+  margin-top: 50px;
+  font-size: 60px;
+  border: none;
+  display: none;
+  background: rgba(255, 255, 255, 0.7);
+  color: #333;
+}
+
+#startGame {
+  margin-bottom: 60px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #333;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#startGame:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#msgBox {
+  font-size: 30px;
+  margin-top: 40px;
+}

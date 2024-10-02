@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+/*
+Student Name: Tak Kam Cheng
+Student Id: 301429108
+Date: 26 Sep 2024
+File: App.js
+*/
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home'; 
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import Services from './pages/Services';
+import ContactMe from './pages/ContactMe';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<ContactMe />} />
+        <Route path="*" element={<Navigate to="/home" />} />
+      </Routes>
+    </Router>
   );
 }
 

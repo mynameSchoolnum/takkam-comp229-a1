@@ -1,0 +1,44 @@
+/*
+Student Name: Tak Kam Cheng
+Student Id: 301429108
+Date: 26 Sep 2024
+File: Navbar.css
+*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar-logo img {
+    width: 200px;  
+    height: auto; 
+    display: block;
+  }  
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li {
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-links a:hover {
+    color: #ddd;
+  }
+  
+  
+  

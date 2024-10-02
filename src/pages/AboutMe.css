@@ -1,0 +1,53 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .profile-picture img {
+    width: 512px;  
+    height: 700px;
+    border-radius: 0%;  
+    object-fit: cover;
+    border: 3px solid #ccc; 
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  .about-text h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .resume-button:hover {
+    background-color: #218838;
+  }
+  
+  
