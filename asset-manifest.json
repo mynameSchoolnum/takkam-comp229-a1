@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c8cbfe0.css",
+    "main.js": "/static/js/main.bdbcd59a.js",
+    "static/media/profilePic.png": "/static/media/profilePic.6499a98eb35bd9a6dcd9.png",
+    "static/media/Projects.png": "/static/media/Projects.1ae12eaa61ce51e0d535.png",
+    "static/media/project1.jpeg": "/static/media/project1.0e93afbb346b715c8c52.jpeg",
+    "static/media/apppic1.webp": "/static/media/apppic1.a24edb8eef842497d5f2.webp",
+    "static/media/AboutMe.png": "/static/media/AboutMe.c93f59abbd4a26bbfee8.png",
+    "static/media/Services.png": "/static/media/Services.061966f72e184824e45a.png",
+    "static/media/ContactMe.png": "/static/media/ContactMe.edc6a6c019383e628d2b.png",
+    "static/media/project3.png": "/static/media/project3.5bb88a6c2bb64fb6bad0.png",
+    "static/media/service1.jpg": "/static/media/service1.b8e3de2425a652ef599b.jpg",
+    "static/media/applogo.png": "/static/media/applogo.ddfc8440aefcbd9cbdd6.png",
+    "static/media/service4.jpg": "/static/media/service4.4fa85a720c0a7ed6d77e.jpg",
+    "static/media/service6.png": "/static/media/service6.fd373eec9017cf21b26d.png",
+    "static/media/service5.png": "/static/media/service5.7b7c4003e702ffb3aeeb.png",
+    "static/media/service2.webp": "/static/media/service2.dceb2780481bb7f86f58.webp",
+    "index.html": "/index.html",
+    "main.7c8cbfe0.css.map": "/static/css/main.7c8cbfe0.css.map",
+    "main.bdbcd59a.js.map": "/static/js/main.bdbcd59a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c8cbfe0.css",
+    "static/js/main.bdbcd59a.js"
+  ]
+}
